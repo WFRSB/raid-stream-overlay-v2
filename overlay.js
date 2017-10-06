@@ -95,7 +95,7 @@ function customColour(hexValue) {
   var b = bigint & 255;
   var rbg = `rgb(${r}, ${g}, ${b})`;
   selectDom.css('color', rbg);
-  progressC.css('background', `linear-gradient(to bottom,  rgba(${r}, ${g}, ${b}, 0.8) 0%, rgba(${r}, ${g}, ${b}, 0.5) 100%`);
+  progressC.css('background', `linear-gradient(to bottom,  rgba(${r}, ${g}, ${b}, 0.85) 0%, rgba(${r}, ${g}, ${b}, 0.5) 100%`);
 }
 
 var SecondsTohhmmss = function (totalSeconds) {
