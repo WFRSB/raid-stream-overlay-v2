@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="overlay.css"/>
+  <meta charset="utf-8" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <script src="overlay.js"></script>
+</head>
+<body>
+  <div class="container">
+      <div class="progressBar">
+        <div class="value">
+          <div class="load"></div>
+        </div>
+      </div>
+      <div class="leftBox">
+        <div class="leftPanel">
+            <div id="Objective" class="textFormat fixLeft">
+              <div class="dummy"></div>
+              <div class="objtext scroll2"></div>
+            </div>
+        </div>
+      </div>
+      <div class="rightBox">
+        <div class="rightPanel">
+          <span class="time titleFormat fixRight">TIME</span>
+          <span id="Time" class="scroll textFormat fixRight"></span>
+          <span class="deaths titleFormat fixRight">D:</span>
+          <span id="Kills" class="scroll textFormat fixRight"></span>
+          <span class="kills titleFormat fixRight">K:</span>
+          <span id="Deaths" class="scroll textFormat fixRight"></span>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
