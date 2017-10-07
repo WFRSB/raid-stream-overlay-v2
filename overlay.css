@@ -136,7 +136,7 @@ body{
     vertical-align: middle;
 }
 .objtext {
-    font-size: 30px;
+    font-size: 27px;
 }
 .objtext::before{
 	animation-delay: 0;
