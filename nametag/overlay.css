@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Caviar Dreams;
+    src: url("CaviarDreams_Bold.ttf");
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    position: relative;
+    height: 80px;
+    width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	top: 10px;
+    font-family: Caviar Dreams;
+}
+
+
+.leftBox{
+	clip-path: polygon(0 0, 0 80px, 415px 80px, 480px 0, 0 0);
+	position: absolute;
+	height: 70px;
+	width: 50%;
+	left: 0;
+}
+.leftPanel{
+	display: table;
+	position: absolute;
+	transform: skew(140deg);
+	background: linear-gradient(170deg, #3B3B3B 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	top: 5px;
+	left: 30px;
+	right: 0px;
+}
+.fixLeft{
+	transform: skew(-140deg);
+}
+
+.dummy { height: 100%; }
+.dummy, .objtext {
+    display: inline-block;
+    vertical-align: middle;
+}
+.objtext {
+    font-size: 27px;
+}
+
+#Objective{
+    top: 5px;
+	left: 10px;
+    width: 400px;
+	height: 60px;
+	font-size: 0;
+	line-height: 28px;
+}
+
+.objective{
+    top: 3px;
+	left: 5px;
+    width: 470px;
+	height: 20px;
+	font-size: 14px;
+}
+
+.textFormat{
+	text-align: center;
+	font-weight: bold;
+    color: rgba(153, 170, 181, 0.85);
+    position: absolute;
+}
